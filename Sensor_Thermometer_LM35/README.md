@@ -5,7 +5,7 @@ Display:    	16x2 Alphanumeric LCD
 
 ### Folder and Files Description
 It has included:
-- `Code_Arduino` (Code with C Language)
+- `Code_Arduino` (Code with C/C++ Language)
 - `Simulate` (Simulator File)
 
 ### Simulate: v1.0
