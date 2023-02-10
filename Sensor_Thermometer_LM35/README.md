@@ -1,7 +1,7 @@
 ## Thermometer Using LM35
  
-MCU:        ARDUINO UNO R3  
-Display:    16x2 Alphanumeric LCD    
+Arduino Type: 	UNO R3  
+Display:    	16x2 Alphanumeric LCD    
 
 ### Folder and Files Description
 It has included:
