@@ -7,7 +7,7 @@ Sensor_Thermometer_LM35\Code_Arduino\v1.0
 - LM35.h
 
 ### LCD
-Sensor_Thermometer_LM35\Code_Arduino\v1.0
+Display_LCD\Code_Arduino\v1.0
 - LCD.h
 
 ### Display ^c

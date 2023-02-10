@@ -1,4 +1,4 @@
-## Thermometer Using LM35
+## ADC Config with AVCC VREF
  
 Arduino Type: 	UNO R3  
 Display:    	16×2 Character LCD  

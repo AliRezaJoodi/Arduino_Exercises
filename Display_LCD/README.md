@@ -1,4 +1,4 @@
-## Thermometer Using LM35
+## 16×2 Character LCD
  
 Arduino Type: 	UNO R3  
 Display:    	16×2 Character LCD  

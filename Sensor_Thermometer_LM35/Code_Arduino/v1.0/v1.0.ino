@@ -1,8 +1,8 @@
 // GitHub Account:  GitHub.com/AliRezaJoodi
 
-#include <LiquidCrystal.h>
 #include "LCD.h"
 #include "Character.h"
+#include "ADC.h"
 #include "LM35.h"
               
 void setup(){  
@@ -13,8 +13,10 @@ void setup(){
 
 //******************************************
 void loop(){
+  float mv=0;  
   float temp=0;
-  temp=GetTemp_LM35(CH_LM35);  
+  mv=GetInputVoltage_ADC(CH_LM35); 
+  temp=mVtoTemp_LM35(mv);
   Display_Value(temp);
   delay(500);
 }
