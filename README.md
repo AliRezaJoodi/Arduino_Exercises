@@ -5,3 +5,4 @@ A repository for my personal exercises.
 ![](Display_LCD/Simulate/Album.png)
 ![](ADC_10Bit_AVCC-VREF/Simulate/Album.png)
 ![](Sensor_Thermometer_LM35/Simulate/Album.png)
+![](UART_Config/Simulate/Album.png)
