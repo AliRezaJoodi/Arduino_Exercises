@@ -3,6 +3,7 @@ A repository for my personal exercises.
 
 ### Gallery of the Repository
 ![](Display_LCD/Simulate/Album.png)
-![](ADC_10Bit_AVCC-VREF/Simulate/Album.png)
+![](ADC/Simulate/Album.png)
 ![](Sensor_Thermometer_LM35/Simulate/Album.png)
-![](UART_Config/Simulate/Album.png)
+
+![](UART/Simulate/Album.png)

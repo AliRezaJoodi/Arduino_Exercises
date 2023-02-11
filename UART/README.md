@@ -1,4 +1,4 @@
-## UART Configuration
+## Config UART
  
 Arduino Type: 	UNO R3  
 

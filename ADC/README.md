@@ -1,4 +1,4 @@
-## ADC Config with AVCC VREF
+## Config ADC
  
 Arduino Type: 	UNO R3  
 Display:    	16×2 Character LCD  
