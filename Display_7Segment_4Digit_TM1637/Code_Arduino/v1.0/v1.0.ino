@@ -24,7 +24,7 @@ void loop(){
   int k;
   uint8_t data[] = { 0xff, 0xff, 0xff, 0xff };
   uint8_t blank[] = { 0x00, 0x00, 0x00, 0x00 };
-  display.setBrightness(0x0f);
+  display.setBrightness(0x0F);
 
   // All segments on
   display.setSegments(data);
@@ -38,15 +38,14 @@ void loop(){
   display.setSegments(data);
   delay(TEST_DELAY);
 
-  /*
+  display.clear();
   for(k = 3; k >= 0; k--) {
-	display.setSegments(data, 1, k);
-	delay(TEST_DELAY);
+	display.setSegments(data, 2, k); delay(TEST_DELAY);
+  display.clear();
 	}
-  */
 
   display.clear();
-  display.setSegments(data+2, 2, 2);
+  display.setSegments(data, 2, 2);
   delay(TEST_DELAY);
 
   display.clear();
@@ -56,7 +55,6 @@ void loop(){
   display.clear();
   display.setSegments(data+1, 3, 1);
   delay(TEST_DELAY);
-
 
   // Show decimal numbers with/without leading zeros
   display.showNumberDec(0, false); delay(TEST_DELAY); // Expect: ___0
@@ -68,10 +66,11 @@ void loop(){
   display.clear();
   display.showNumberDec(14, false, 2, 1); delay(TEST_DELAY); // Expect: _14_
   display.clear();
-  display.showNumberDec(4, true, 2, 2); delay(TEST_DELAY); // Expect: 04__
+  display.showNumberDec(4, true, 2, 2); delay(TEST_DELAY); // Expect: __04
   display.showNumberDec(-1, false); delay(TEST_DELAY); // Expect: __-1
   display.showNumberDec(-12); delay(TEST_DELAY); // Expect: _-12
   display.showNumberDec(-999); delay(TEST_DELAY); // Expect: -999
+
   display.clear();
   display.showNumberDec(-5, false, 3, 0); delay(TEST_DELAY); // Expect: _-5_
   display.showNumberHexEx(0xf1af); delay(TEST_DELAY); // Expect: f1Af
