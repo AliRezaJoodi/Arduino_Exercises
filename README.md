@@ -7,5 +7,6 @@ A repository for my personal exercises.
 ![](Sensor_Thermometer_LM35/Simulate/Album.png)
 
 ![](TM1637_4Digit7Segment/Simulate/Album.png)
+![](TM1637_6Digit7Segment/Simulate/Album.png)
 
 ![](UART/Simulate/Album.png)
